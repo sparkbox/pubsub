@@ -1,0 +1,27 @@
+{
+  "name": "pubsub",
+  "version": "0.0.1",
+  "description": "loggable pubsub library",
+  "main": "pubsub.js",
+  "scripts": {
+    "test": "jasmine-node --color specs",
+    "dev": "node tasks/watch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparkbox/pubsub.git"
+  },
+  "keywords": [
+    "pubsub"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparkbox/pubsub/issues"
+  },
+  "homepage": "https://github.com/sparkbox/pubsub#readme",
+  "devDependencies": {
+    "chokidar": "^1.4.3",
+    "jasmine-node": "^1.14.5"
+  }
+}
